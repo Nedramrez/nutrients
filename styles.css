@@ -64,11 +64,12 @@ li.dropdown {
 .container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .label {
   border: 2px solid black;
-  width: 300px;
+  width: 370px;
   margin: 20px auto;
   padding: 0 7px;
 }
